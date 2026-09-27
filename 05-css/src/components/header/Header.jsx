@@ -1,0 +1,13 @@
+import React from 'react';
+import styles from './Header.module.css';
+
+export const Header = () => {
+    return (
+        <div className={styles.header}>
+            <h3>Sheryians</h3>
+            <button>Login</button>
+        </div>
+    );
+};
+
+export default Header;
